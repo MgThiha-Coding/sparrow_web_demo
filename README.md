@@ -9,10 +9,16 @@ checkout. Its Flutter compiler and runtime contain unpublished changes not
 present in the public Sparrow Kit main branch. The local Sparrow CLI must be
 activated from that checkout to build this project.
 
-The SEO configuration uses the reserved `https://example.com` origin and
-disables indexing. Contact details are placeholders and the contact form is a
-non-submitting preview. These values and the contact integration are not ready
-for production use.
+The SEO configuration targets the production Vercel alias
+`https://sparrowwebdemo.vercel.app` and enables indexing for the five public
+pages. The static-site generator uses that origin for canonical URLs,
+`robots.txt`, and `sitemap.xml`. Contact details are placeholders and the
+contact form is a non-submitting preview; neither is ready for real customer
+inquiries.
+
+Page-specific SEO metadata follows the static generation order: home, services,
+solutions, about, and contact. Keep this order aligned with the named routes in
+`lib/main.dart` when adding or rearranging routes.
 
 ## Flutter compiler styling limits
 

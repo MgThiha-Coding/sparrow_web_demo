@@ -233,7 +233,7 @@ class HeroIntroduction extends StatelessWidget {
       ),
       const SizedBox(height: 20),
       const Text(
-        'We partner with ambitious teams to turn complex challenges into clear, dependable digital products.',
+        'This demonstration explores how teams can turn complex challenges into clear, dependable digital products.',
         style: TextStyle(fontSize: 17, height: 1.6, color: Color(0xFF516275)),
       ),
       const SizedBox(height: 28),
@@ -511,9 +511,9 @@ class ServicesSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         SectionHeading(
-          eyebrow: '01 / OUR EXPERTISE',
+          eyebrow: '01 / SERVICE CONCEPTS',
           title: 'The right expertise, at every stage.',
-          description: 'From the first idea to a dependable product, we bring strategy, design and engineering together.',
+          description: 'Illustrative service concepts bring strategy, design and engineering together, from the first idea through a dependable product.',
         ),
         SparrowResponsiveGrid(
           mobileColumns: 1,
@@ -572,9 +572,9 @@ class SolutionsSection extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           SectionHeading(
-            eyebrow: '02 / WHAT WE BUILD',
+            eyebrow: '02 / SOLUTION CONCEPTS',
             title: 'Technology with a clear purpose.',
-            description: 'We build the tools that help people make decisions, serve customers and move work forward.',
+            description: 'These concepts show how software can help people make decisions, serve customers and move work forward.',
           ),
           SparrowResponsiveGrid(
             mobileColumns: 1,

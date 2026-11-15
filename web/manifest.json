@@ -1,11 +1,11 @@
 {
-    "name": "sparrow_corporate_site",
-    "short_name": "sparrow_corporate_site",
+    "name": "Sparrow Kit",
+    "short_name": "Sparrow Kit",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A demonstration site about thoughtful software, digital products, and technology solutions.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
