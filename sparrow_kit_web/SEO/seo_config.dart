@@ -6,32 +6,27 @@ const _pageMetadata = [
   _PageMetadata(
     path: '/',
     title: 'Sparrow Kit | Thoughtful software, built to last',
-    description:
-        'Explore Sparrow Kit’s demonstration of thoughtful software, digital products, technology solutions, and collaborative delivery.',
+    description: 'Explore Sparrow Kit’s demonstration of thoughtful software, digital products, technology solutions, and collaborative delivery.',
   ),
   _PageMetadata(
     path: '/services',
     title: 'Sparrow Kit Services | Software Design & Engineering',
-    description:
-        'Explore Sparrow Kit’s software service concepts, from custom and web applications to mobile products, UX design, and technical consulting.',
+    description: 'Explore Sparrow Kit’s software service concepts, from custom and web applications to mobile products, UX design, and technical consulting.',
   ),
   _PageMetadata(
     path: '/solutions',
     title: 'Sparrow Kit Solutions | Operations, Customer & Data',
-    description:
-        'Explore Sparrow Kit’s technology solution concepts for operations, customer experiences, and useful data and reporting.',
+    description: 'Explore Sparrow Kit’s technology solution concepts for operations, customer experiences, and useful data and reporting.',
   ),
   _PageMetadata(
     path: '/about',
     title: 'About Sparrow Kit | Philosophy & Approach',
-    description:
-        'Learn about Sparrow Kit’s technology company concept, including its focus on human understanding, clear communication, and careful engineering.',
+    description: 'Learn about Sparrow Kit’s technology company concept, including its focus on human understanding, clear communication, and careful engineering.',
   ),
   _PageMetadata(
     path: '/contact',
     title: 'Contact Sparrow Kit | Form Preview',
-    description:
-        'See the Sparrow Kit contact page and form preview. Contact details are placeholders and the form is not connected to a service.',
+    description: 'See the Sparrow Kit contact page and form preview. Contact details are placeholders and the form is not connected to a service.',
   ),
 ];
 
@@ -71,8 +66,7 @@ HeadMetadata buildSparrowSeoMetadata(String? _) {
       _WebsiteJsonLd(
         name: 'Sparrow Kit',
         url: sparrowSiteBaseUrl,
-        description:
-            'A demonstration site about thoughtful software, digital products, and technology solutions.',
+        description: 'A demonstration site about thoughtful software, digital products, and technology solutions.',
       ),
     ],
   );

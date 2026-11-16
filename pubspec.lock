@@ -155,12 +155,11 @@ packages:
   sparrow_kit:
     dependency: "direct main"
     description:
-      path: "packages/sparrow_kit"
-      ref: f66149d918b433abcc36d7299115ba6e88f5b196
-      resolved-ref: f66149d918b433abcc36d7299115ba6e88f5b196
-      url: "https://github.com/MgThiha-Coding/sparrow_kit.git"
-    source: git
-    version: "1.0.0"
+      name: sparrow_kit
+      sha256: e27f264761811a172b948ac61594c976ba877969f030326f950d34f717318dec
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0-experimental.1"
   stack_trace:
     dependency: transitive
     description:
