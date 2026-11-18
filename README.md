@@ -6,12 +6,13 @@ client case studies.
 
 ## Build
 
-The demo uses the published Sparrow Kit package. Resolve dependencies, then
-run Sparrow CLI's static-site generator from this checkout:
+The demo uses published `sparrow_kit` and `sparrow_cli` version
+`2.0.0-experimental.1`. Resolve dependencies, then build the static site from
+this checkout:
 
 ```powershell
 flutter pub get
-sparrow kit build web
+flutter pub run sparrow_cli kit build web
 ```
 
 The site uses Manrope font files declared through Flutter's local font asset
